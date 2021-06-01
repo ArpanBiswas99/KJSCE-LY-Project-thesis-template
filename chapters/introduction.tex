@@ -1,11 +1,22 @@
-For reference see figure \ref{fig:artemis}, equation \ref{eq:pid}, and table \ref{tab:myrio}. For citations use \cite{FSG}.
+\vspace{-0.8cm}
+\noindent\fbox{%
+    \parbox{\textwidth}{%
+        This chapter presents ...
+        \\
+        \\
+    }%
+}
+
+\section{Section 1}
+For reference see figure \ref{fig:sample}, equation \ref{eq:pid}, and table \ref{tab:sample}. For citations use \cite{PID}.
 
 \begin{figure}[hbt!]
     \centering
-    \includegraphics[width=0.8\textwidth]{images/Artemis.jpg}
-    \caption{Artemis (ORI19e)}\label{fig:artemis}
+    \includegraphics[width=0.6\textwidth]{images/somaiya.png}
+    \caption{Sample image}\label{fig:sample}
 \end{figure}
 
+PID equation:
 \[u(t) = K_p \ e(t) + K_i\ \int_{t_0}^{t} e(t') \ dt' + K_d \ \frac{de(t)}{dt}\] \label{eq:pid}
 
 \begin{table}[hbt!]
@@ -13,33 +24,19 @@ For reference see figure \ref{fig:artemis}, equation \ref{eq:pid}, and table \re
 \scalebox{1}{%
 \begin{tabular}{|M|L|}
  \hline
- \textbf{Components} & \textbf{Figures} \\
+ \textbf{xx} & \textbf{yy} \\
  \hline
- Processor & Xilinx FPGA and dual-core ARM Cortex-A9 processor \\ 
+ aaa & aaa aaa aaa \\ 
  \hline
- Max. Processor Operating Frequency & 667 MHz \\
- \hline
- Operating voltage & 6V - 16V \\
- \hline
- Program memory & 256 MB, DDR3 \\
- \hline
- Data memory & 512 MB, 533 MHz, 16 bits \\
- \hline
- Digital GPIOs & 40 \\
- \hline
- Analog pins & 10 (Input, 12-bit resolution), 6 (Output, 12-bit resolution) \\
- \hline
- Preferred programming language & LabVIEW \\
- \hline
- Max power consumption & 14 W \\
- \hline
- Wireless & IEEE 802.11/b/g/n ISM 2.4 GHz \\
- \hline
- USB & 2.0 Hi-Speed  \\
- \hline
- Inbuilt sensor & 3 axis accelerometer\\
+ bbb & bbb bbb bbb \\
  \hline
 \end{tabular}}
-\caption{\label{tab:myrio}NI myRIO important figures}
+\caption{\label{tab:sample}Sample table}
 \end{center}
 \end{table}
+
+\subsection{Sub-section 1}
+Some text ...
+
+\subsection{Sub-section 2}
+Some text ...
